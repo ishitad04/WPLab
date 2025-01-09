@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc; /* Light gray background */
+    color: #333; /* Dark gray text */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #008080; /* Teal */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #ff6f61; /* Coral */
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    color: #008080; /* Teal */
+}
+
+main p, main ul li {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #ffe5e0; /* Light coral */
+    border-left: 6px solid #ff6f61; /* Coral */
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #008080; /* Teal */
+    color: white;
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Extra Styling for Links */
+a {
+    color: #008080; /* Teal */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Highlight Sections */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #e0f7f9; /* Light teal */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
